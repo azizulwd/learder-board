@@ -168,3 +168,63 @@ Course-area Css
     color: #FF4A60;
     border-radius: 20px;
 }
+
+
+
+/* =======================
+    Media Quries
+======================= */
+
+/* Mobile device */
+@media only screen and (max-width: 688px){
+    .container{
+        width: 100%;
+    }
+    .navigation .logo{
+        justify-content: center;
+        margin-bottom: 40px;
+    }
+    .navigation ul{
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+    }
+    .navigation ul li a{
+        width: 400px;
+        display: block;
+        text-align: center;
+        padding: 15px 0;
+        border-radius: 10px;
+        transition: 0.4s;
+    }
+    .navigation ul li a:hover{
+        background: #562ECC;
+    }
+    .navigation ul li img{
+        width: 60px;
+        height: 60px;
+    }
+    .navigation{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .players, .blogs{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .latest_courses{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .courses{
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 30px;
+    }
+    .course{
+        height: 340px;
+    }
+    .course .course_banner img{
+        width: 100%;
+        height: 200px;
+    }
+}
