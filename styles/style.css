@@ -175,6 +175,36 @@ Course-area Css
     Media Quries
 ======================= */
 
+
+
+/* iPad device */
+@media only screen and (max-width: 992px){
+    .container{
+        width: 100%;
+    }
+    .header{
+        padding: 25px;
+    }
+    .players{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .blogs{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .courses{
+        grid-template-columns: repeat(2, 1fr);
+        grid-row-gap: 30px;
+    }
+    .course{
+        height: 320px;
+    }
+    .course .course_banner img{
+        width: 100%;
+        height: 150px;
+    }
+}
+
+
 /* Mobile device */
 @media only screen and (max-width: 688px){
     .container{
