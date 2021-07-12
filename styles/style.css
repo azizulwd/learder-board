@@ -129,7 +129,6 @@ Course-area Css
     box-shadow: 0 0 8px lightgray;
     padding: 10px;
     border-radius: 5px;
-    height: 270px;
 }
 .course .course_banner{
     text-align: center;
@@ -195,9 +194,6 @@ Course-area Css
         grid-template-columns: repeat(2, 1fr);
         grid-row-gap: 30px;
     }
-    .course{
-        height: 320px;
-    }
     .course .course_banner img{
         width: 100%;
         height: 150px;
@@ -249,9 +245,6 @@ Course-area Css
     .courses{
         grid-template-columns: repeat(1, 1fr);
         grid-row-gap: 30px;
-    }
-    .course{
-        height: 340px;
     }
     .course .course_banner img{
         width: 100%;
