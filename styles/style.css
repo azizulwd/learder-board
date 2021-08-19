@@ -13,7 +13,7 @@ Common Css
 }
 body{
     font-family: 'Poppins', sans-serif;
-    background: #E5E5E5;
+    background: rgba(255, 87, 34, 0.1);
 }
 .container_style{
     background: #fff;
@@ -166,6 +166,51 @@ Course-area Css
     padding: 5px 8px;
     color: #FF4A60;
     border-radius: 20px;
+}
+
+
+/* ==================
+Footer Css
+================== */
+footer {
+    background: #ff5722;
+    padding: 50px 0;
+}
+.quick_links {
+    color: #fff;
+}
+.quick_links ul{
+    list-style: none;
+    margin-bottom: 20px;
+}
+.quick_links button {
+    background: lightgray;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    color: #000;
+    font-weight: 600;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+.inputContainer input {
+    padding: 10px 5px;
+    border: 1px solid black;
+    outline: none;
+    width: 50px;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+}
+.inputContainer button {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
 }
 
 
